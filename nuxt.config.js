@@ -11,14 +11,14 @@ export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     titleTemplate: '%s',
-    title: 'Resulttree  | Search multiple sites at once | Multiple search engine',
+    title: 'قريب : بحث في جميع محركات البحث | بحث متقدم | بحث بالصور | بحث شامل    ',
     htmlAttrs: {
       lang: 'en'
     },
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'Search multiple websites at once with Resulttree! Save time and effort! Type the keyword once and search multiple websites. Search in Google, Youtube, Facebook, Twitter, Amazon, Reddit, and many others at once. Search All!' }
+      { hid: 'description', name: 'description', content: 'اكتب الكلمة المراد البحث عنها مره واحد فقط وابحث في جميع المواقع بضغطة زر.منصة قريب تمكنك من البحث في جميع محركات البحث, قوقل, يوتيوب, انستقرام, تويتر و فيس بوك و غيرها الكثير بضغة زر واحده. بحث متقدم و بحث بالصور و كذلك البحث في محرك البحث الروسي او محرك بحث الصيني.' }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/Favicon.png' }
@@ -48,6 +48,7 @@ export default {
 
   // Vuetify module configuration: https://go.nuxtjs.dev/config-vuetify
   vuetify: {
+    rtl : true ,
     customVariables: ['~/assets/variables.scss'],
     theme: {
       dark: false,

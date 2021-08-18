@@ -5,10 +5,10 @@
         Entering the search term and clicking  "Enter"  will open Google results in a new tab
       </v-snackbar>
       <div class="search-section">
-        <img class="pb-8 pt-8 img-fluid " style="margin-bottom:30px" src="/ResultTree.png" alt="" />
+        <img class="pb-8 pt-8 img-fluid " style="margin-bottom:30px" src="/Qereb.jpg" alt="" />
         <v-text-field
           v-model="search"
-          placeholder="Enter your search term"
+          placeholder="أدخل الكلمة المراد البحث بها"
           outlined
           color="black darken-2"
           class="search-field"
@@ -20,13 +20,13 @@
         <div class="checkboxes">
           <v-checkbox
             v-model="addQuotation"
-            label='Add Double Quotation "..." '
+            label='أضف علامات التنصيص "..." '
             hide-details
             @change="quotation"
           ></v-checkbox>
           <v-checkbox
             v-model="addParenthesis"
-            label='Add Parenthesis (...)'
+            label='أضف أقواس (...)'
             hide-details
             @change="parenthesis"
           ></v-checkbox>
@@ -62,11 +62,11 @@
         <!-- Search Engine -->
         <div class="btn-section ">
           <p class="text-gray">Search Engine</p>
-          <v-btn class="mr-2 mb-2 lower-case" outlined color="black" @click="searchField('Google')">Google</v-btn>
-          <v-btn class="mr-2 mb-2 lower-case" outlined color="black" @click="searchField('Bing')">Bing</v-btn>
-          <v-btn class="mr-2 mb-2 lower-case" outlined color="black" @click="searchField('Yahoo')">Yahoo</v-btn>
+          <v-btn class="mr-2 mb-2 lower-case" outlined color="black" @click="searchField('Google')">جوجل</v-btn>
+          <v-btn class="mr-2 mb-2 lower-case" outlined color="black" @click="searchField('Bing')">بينج</v-btn>
+          <v-btn class="mr-2 mb-2 lower-case" outlined color="black" @click="searchField('Yahoo')">ياهو</v-btn>
           <v-btn class="mr-2 mb-2 lower-case" outlined color="black" @click="searchField('DuckDuckGo')">DuckDuckGo</v-btn>
-<!--          <v-btn class="mr-2 mb-2 lower-case" outlined color="black" @click="searchField('Baidu')">Baidu</v-btn>-->
+         <!-- <v-btn class="mr-2 mb-2 lower-case" outlined color="black" @click="searchField('Baidu')">Baidu</v-btn> -->
           <v-btn class="mr-2 mb-2 lower-case" outlined color="black" @click="searchField('Yandex')">Yandex</v-btn>
           <v-btn class="mr-2 mb-2 lower-case" outlined color="black" @click="searchField('InternetArchive')">Internet Archive</v-btn>
           <v-tooltip bottom close-delay="2000" max-width="300" color="black" >
