@@ -35,22 +35,23 @@
       <p class="text-gray pt-5">Enter the search term, then click on your preferred website to show the results. </p>
       <p class="text-gray">Tip: clicking "Enter" will open Google by default.</p>
       <div class="btn-section pt-8">
-         <v-btn class="mr-2 mb-2 lower-case" outlined color="black" @click="searchField('Google')">Google</v-btn>
-         <v-btn class="mr-2 mb-2 lower-case" outlined color="black" @click="searchField('Youtube')">Youtube</v-btn>
-	     <v-btn class="mr-2 mb-2 lower-case" outlined color="black" @click="searchField('Facebook')">Facebook</v-btn>
-	     <v-btn class="mr-2 mb-2 lower-case" outlined color="black" @click="searchField('Twiter')">Twitter</v-btn>
-         <v-btn class="mr-2 mb-2 lower-case" outlined color="black" @click="searchField('Instagram')">Instagram</v-btn>
-	     <v-btn class="mr-2 mb-2 lower-case" outlined color="black" @click="searchField('Reddit')">Reddit</v-btn>
-         <v-btn class="mr-2 mb-2 lower-case" outlined color="black" @click="searchField('Quora')">Quora</v-btn>
-	     <v-btn class="mr-2 mb-2 lower-case" outlined color="black" @click="searchField('Amazon')">Amazon</v-btn>
+         <v-btn class="mr-2 mb-2 lower-case" outlined color="black" @click="searchField('Google')">جوجل</v-btn>
+         <v-btn class="mr-2 mb-2 lower-case" outlined color="black" @click="searchField('Youtube')">يوتيوب</v-btn>
+	     <v-btn class="mr-2 mb-2 lower-case" outlined color="black" @click="searchField('Facebook')">فيس بوك</v-btn>
+	     <v-btn class="mr-2 mb-2 lower-case" outlined color="black" @click="searchField('Twiter')">تويتر</v-btn>
+         <v-btn class="mr-2 mb-2 lower-case" outlined color="black" @click="searchField('Instagram')">انستاقرام</v-btn>
+	     <v-btn class="mr-2 mb-2 lower-case" outlined color="black" @click="searchField('Reddit')">ريدت</v-btn>
+         <v-btn class="mr-2 mb-2 lower-case" outlined color="black" @click="searchField('Quora')">كورا</v-btn>
+	     <v-btn class="mr-2 mb-2 lower-case" outlined color="black" @click="searchField('Amazon')">أمازون</v-btn>
         <v-tooltip bottom close-delay="2000" max-width="300" color="black" >
           <template v-slot:activator="{ on, attrs }">
-           <v-btn class="mr-2 mb-2 lower-case" v-bind="attrs" v-on="on" outlined color="black" @click="searchField()">Open All
-                  <v-icon left dark class="ml-1">mdi-help</v-icon>
+           <v-btn class="mr-2 mb-2 lower-case" v-bind="attrs" v-on="on" outlined color="black" @click="searchField()">إفتحهم جميعاً
+                  <!-- <v-icon left dark class="ml-1">mdi-help</v-icon> -->
             </v-btn>
           </template>
-          <span>If you want to use the “Open All” function,  you need to enable opening multiple pages in your browser.
-            <a href="https://bit.ly/2TfpLSQ" target="_blank" style="cursor: pointer">See this video: </a></span>
+          <span>إذا كنت تريد فتح جميع المواقع في نفس الوقت فأنت تحتاج لتشغيل هذا الخيار من المتصفح
+            <br>
+            <a href="https://bit.ly/2TfpLSQ" target="_blank" style="cursor: pointer">شاهد هـذا الفيديو </a></span>
         </v-tooltip>
       </div>
       <v-switch
@@ -155,7 +156,7 @@
             <a href="https://bit.ly/2TfpLSQ" target="_blank" style="cursor: pointer">See this video: </a></span>        </v-tooltip>
       </div>
       <p style="padding-top:50px" class="text-gray">All data processing is done on your browser's end, so we don't store any data.</p>
-      <p class="text-gray">  Are there other sites you'd like to see here? Let us know: Resulttree@inboxeen.com</p>
+      <p class="text-gray">  Are there other sites you'd like to see here? Let us know: qereb@inboxeen.com</p>
     </div>
   </div>
 

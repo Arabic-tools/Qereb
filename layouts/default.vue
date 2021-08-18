@@ -10,7 +10,7 @@
       app
       color="#262d3d"
     >
-      <span class="footer-title">Copyright © 2021 Resulttree</span>
+      <span class="footer-title">Copyright © 2021 Qereb</span>
       <v-spacer></v-spacer>
 <!--      <span class="footer-title">Wanna add another website? Or have any suggestions? Email us: Opener@inboxeen.com</span>-->
     </v-footer>
