@@ -30,7 +30,7 @@ export default {
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
-  plugins: ['~/plugins/hotjar','@/plugins/gtag'
+  plugins: [{src: '~/plugins/hotjar.js', mode: 'client'},'@/plugins/gtag'
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
