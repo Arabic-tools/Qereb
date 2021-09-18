@@ -10,9 +10,21 @@
       app
       color="#262d3d"
     >
-      <span class="footer-title">Copyright © 2021 Qereb</span>
-      <v-spacer></v-spacer>
-<!--      <span class="footer-title">Wanna add another website? Or have any suggestions? Email us: Opener@inboxeen.com</span>-->
+
+          <v-row>
+        <v-col style="text-align:center">
+                              <!-- الموقع برعاية :
+
+          <a href="https://wasetshera.com?myad=53196"> وسيط شراء من الإنترنت</a>
+          <br /> -->
+          للإتصال بنا:
+          <a href="mailto:qereb@inboxeen.com">qereb@inboxeen.com</a>
+
+          <br />
+          جميع الحقوق محفوظة - موقع قريب 2021 ©
+        </v-col>
+      </v-row>
+    
     </v-footer>
   </v-app>
 </template>
@@ -36,5 +48,9 @@ export default {
 .footer-title{
   color: white;
   font-size: 12px;
+}
+
+*{
+  font-family:  'IBM Plex Sans Arabic', sans-serif;
 }
 </style>

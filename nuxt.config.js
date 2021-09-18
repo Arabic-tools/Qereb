@@ -44,6 +44,7 @@ export default {
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
+    '@nuxtjs/google-fonts'
   ],
 
   // Vuetify module configuration: https://go.nuxtjs.dev/config-vuetify
@@ -65,6 +66,18 @@ export default {
       }
     }
   },
+  googleFonts: {
+    families: {
+      Roboto: true,
+      'IBM+Plex+Sans+Arabic': true,
+      Lato: [100, 300],
+      Raleway: {
+        wght: [100, 400],
+        ital: [100]
+      },
+    }
+  }
+,
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
