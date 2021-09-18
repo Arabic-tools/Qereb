@@ -5,15 +5,10 @@
         <nuxt />
       </v-container>
     </v-main>
-    <v-footer
-      :absolute="!fixed"
-      app
-      color="#262d3d"
-    >
-
-          <v-row>
+    <v-footer :absolute="!fixed" app color="#FDFDFD">
+      <v-row>
         <v-col style="text-align:center">
-                              <!-- الموقع برعاية :
+          <!-- الموقع برعاية :
 
           <a href="https://wasetshera.com?myad=53196"> وسيط شراء من الإنترنت</a>
           <br /> -->
@@ -24,14 +19,13 @@
           جميع الحقوق محفوظة - موقع قريب 2021 ©
         </v-col>
       </v-row>
-    
     </v-footer>
   </v-app>
 </template>
 
 <script>
 export default {
-  data () {
+  data() {
     return {
       clipped: false,
       drawer: false,
@@ -39,18 +33,18 @@ export default {
       miniVariant: false,
       right: true,
       rightDrawer: false,
-      title: 'Vuetify.js'
-    }
+      title: "Vuetify.js"
+    };
   }
-}
+};
 </script>
 <style scoped>
-.footer-title{
+.footer-title {
   color: white;
   font-size: 12px;
 }
 
-*{
-  font-family:  'IBM Plex Sans Arabic', sans-serif;
+* {
+  font-family: "IBM Plex Sans Arabic", sans-serif;
 }
 </style>

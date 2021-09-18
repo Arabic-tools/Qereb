@@ -272,9 +272,7 @@
       </div>
       <p style="padding-top:50px" class="text-gray">
         يتم معالجة كل البيانات في جانب المتصفح ولا نحتفظ بأي بيانات علي السيرفر
-
       </p>
-
     </div>
   </div>
 </template>
