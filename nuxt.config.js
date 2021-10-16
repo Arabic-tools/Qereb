@@ -1,7 +1,7 @@
 import colors from 'vuetify/es5/util/colors'
 
 export default {
- server: {
+  server: {
     port: 3005 // default: 3000
   },
 
@@ -30,7 +30,7 @@ export default {
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
-  plugins: [{src: '~/plugins/hotjar.js', mode: 'client'},'@/plugins/gtag'
+  plugins: ['~/plugins/hotjar.js', '@/plugins/gtag'
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
@@ -40,7 +40,7 @@ export default {
   buildModules: [
     // https://go.nuxtjs.dev/vuetify
     '@nuxtjs/vuetify'
- ],
+  ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
@@ -49,7 +49,7 @@ export default {
 
   // Vuetify module configuration: https://go.nuxtjs.dev/config-vuetify
   vuetify: {
-    rtl : true ,
+    rtl: true,
     customVariables: ['~/assets/variables.scss'],
     theme: {
       dark: false,
@@ -77,7 +77,7 @@ export default {
       },
     }
   }
-,
+  ,
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
