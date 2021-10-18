@@ -30,7 +30,7 @@ export default {
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
-  plugins: ['~/plugins/hotjar.js', '@/plugins/gtag'
+  plugins: ['~/plugins/hotjar.js'
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
@@ -44,7 +44,8 @@ export default {
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
-    '@nuxtjs/google-fonts'
+    '@nuxtjs/google-fonts',
+    '@nuxtjs/google-analytics'
   ],
 
   // Vuetify module configuration: https://go.nuxtjs.dev/config-vuetify
@@ -65,6 +66,9 @@ export default {
         }
       }
     }
+  },
+  googleAnalytics: {
+    id: 'UA-208155997-24'
   },
   googleFonts: {
     families: {
