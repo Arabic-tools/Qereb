@@ -27,7 +27,8 @@ export default {
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
-  ],
+    "~assets/global.css",
+],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: ['~/plugins/hotjar.js'
@@ -44,7 +45,7 @@ export default {
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
-    '@nuxtjs/google-fonts',
+    // '@nuxtjs/google-fonts',
     '@nuxtjs/google-analytics'
   ],
 
@@ -70,18 +71,18 @@ export default {
   googleAnalytics: {
     id: 'UA-208155997-24'
   },
-  googleFonts: {
-    families: {
-      Roboto: true,
-      'IBM+Plex+Sans+Arabic': true,
-      Lato: [100, 300],
-      Raleway: {
-        wght: [100, 400],
-        ital: [100]
-      },
-    }
-  }
-  ,
+  // googleFonts: {
+  //   families: {
+  //     Roboto: true,
+  //     'IBM+Plex+Sans+Arabic': true,
+  //     Lato: [100, 300],
+  //     Raleway: {
+  //       wght: [100, 400],
+  //       ital: [100]
+  //     },
+  //   }
+  // }
+  // ,
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {

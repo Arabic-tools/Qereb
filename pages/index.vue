@@ -21,7 +21,7 @@
         />
         <v-text-field
           v-model="search"
-          placeholder="أدخل الكلمة المراد البحث بها"
+          placeholder="أدخل الكلمة المراد البحث عنها"
           outlined
           color="black darken-2"
           class="search-field"
@@ -45,10 +45,10 @@
           ></v-checkbox>
         </div>
       </div>
-      <p class="text-gray pt-5">
-        أدخل الكلمة المراد البحث بها ، ثم إضغط على موقعك المفضل لإظهار النتائج
+      <p class="grey--text pt-5">
+        أدخل الكلمة المراد البحث عنها ، ثم إضغط على موقعك المفضل لإظهار النتائج
       </p>
-      <p class="text-gray">معلومة: الضغط علي زر إدخال سيفتح موقع جوجل</p>
+      <p class="grey--text">معلومة: الضغط علي زر إدخال سيفتح موقع قوقل</p>
       <div class="btn-section pt-8">
         <v-btn
           v-for="site in firstRowSites"
@@ -93,7 +93,7 @@
       <div v-show="switchBtn">
         <!-- Search Engine -->
         <div class="btn-section ">
-          <p class="text-gray">محركات البحث</p>
+          <p class="grey--text">محركات البحث</p>
           <v-btn
             v-for="site in searchEngineSites"
             :key="site.value + 1"
@@ -113,7 +113,7 @@
                 outlined
                 color="black"
                 @click="searchField('searchEngine')"
-                >إفتحهم جميعا!
+                >إفتحهم جميعا
               </v-btn>
             </template>
             <span
@@ -131,7 +131,7 @@
         </div>
         <!-- Social Media -->
         <div class="btn-section pt-4">
-          <p class="text-gray">التواصل الإجتماعي</p>
+          <p class="grey--text">التواصل الإجتماعي</p>
           <v-btn
             v-for="site in socialMediaSites"
             :key="site.value + 1"
@@ -150,7 +150,7 @@
                 outlined
                 color="black"
                 @click="searchField('socialMedia')"
-                >إفتحهم جميعا!
+                >إفتحهم جميعا
               </v-btn>
             </template>
             <span
@@ -168,7 +168,7 @@
         </div>
         <!-- Shopping -->
         <div class="btn-section pt-4">
-          <p class="text-gray">التسوق</p>
+          <p class="grey--text">التسوق</p>
           <v-btn
             v-for="site in shoppingSites"
             :key="site.value + 1"
@@ -187,7 +187,7 @@
                 outlined
                 color="black"
                 @click="searchField('Shopping')"
-                >إفتحهم جميعا!
+                >إفتحهم جميعا
               </v-btn>
             </template>
             <span
@@ -205,7 +205,7 @@
         </div>
         <!-- Others -->
         <div class="btn-section pt-4">
-          <p class="text-gray">المواقع الأخري</p>
+          <p class="grey--text">المواقع الأخري</p>
           <v-btn
             v-for="site in otherSites"
             :key="site.value + 1"
@@ -216,7 +216,7 @@
             >{{ site.name }}</v-btn
           >
 
-          <!--          <v-btn class="mr-2 mb-2 lower-case" outlined color="black" @click="searchField('Others')">إفتحهم جميعا!</v-btn>-->
+          <!--          <v-btn class="mr-2 mb-2 lower-case" outlined color="black" @click="searchField('Others')">إفتحهم جميعا</v-btn>-->
         </div>
       </div>
       <p style="display:none" class="pt-8 pb-8 mb-0">
@@ -254,7 +254,7 @@
               rounded
               color="#0069D9"
               @click="searchField('Open_all')"
-              >إفتحهم جميعا!
+              >إفتحهم جميعا
             </v-btn>
           </template>
           <span
@@ -270,7 +270,7 @@
           >
         </v-tooltip>
       </div>
-      <p style="padding-top:50px" class="text-gray">
+      <p style="padding-top:50px" class="grey--text">
         يتم معالجة كل البيانات في جانب المتصفح ولا نحتفظ بأي بيانات علي السيرفر
       </p>
     </div>
@@ -351,7 +351,7 @@ export default {
           value: "Twiter"
         },
         {
-          name: "انستاقرام",
+          name: "انستقرام",
           value: "Instagram"
         },
         {
@@ -369,7 +369,7 @@ export default {
       ],
       searchEngineSites: [
         {
-          name: "جوجل",
+          name: "قوقل",
           value: "Google"
         },
         {
@@ -396,7 +396,7 @@ export default {
 
       firstRowSites: [
         {
-          name: "جوجل",
+          name: "قوقل",
           value: "Google"
         },
         {
@@ -412,11 +412,11 @@ export default {
           value: "Twiter"
         },
         {
-          name: "انستاقرام",
+          name: "انستقرام",
           value: "Instagram"
         },
         {
-          name: "ريدت",
+          name: "ريديت",
           value: "Reddit"
         },
         {
@@ -621,9 +621,7 @@ export default {
 .lower-case {
   text-transform: capitalize;
 }
-.text-gray {
-  color: gray;
-}
+
 .v-tooltip__content {
   pointer-events: initial;
 }
