@@ -7,16 +7,18 @@
     </v-main>
     <v-footer :absolute="!fixed" app color="#FDFDFD">
       <v-row>
-        <v-col style="text-align:center">
+        <v-col class="effra-font" style="text-align:center">
           <!-- الموقع برعاية :
 
           <a href="https://wasetshera.com?myad=53196"> وسيط شراء من الإنترنت</a>
           <br /> -->
-          للإتصال بنا:
-          <a href="mailto:qereb@inboxeen.com">qereb@inboxeen.com</a>
+	<span class="effra-font">	  قريب برعاية لطيفة من الرائعين في:</span><a style="font-size:18px" class="effra-font" href="https://shbbr.com/jareed" target="_blank"> نشرة جريد</a>
+		<br />
+        <span class="effra-font">  للإتصال بنا:</span>
+          <a class="black-text effra-font" href="mailto:qereb@inboxeen.com">qereb@inboxeen.com</a>
 
           <br />
-          جميع الحقوق محفوظة - موقع قريب 2021 ©
+      <div class="effra-font">    جميع الحقوق محفوظة - موقع قريب 2021 ©</div>
         </v-col>
       </v-row>
     </v-footer>
@@ -39,6 +41,15 @@ export default {
 };
 </script>
 <style scoped>
+.black-text{
+color: black;
+}
+.effra-font{
+font-family: Effra, sans-serif;
+}
+a{
+text-decoration: none;
+}
 .footer-title {
   color: white;
   font-size: 12px;
