@@ -18,7 +18,7 @@
           <a class="black-text effra-font" href="mailto:qereb@inboxeen.com">qereb@inboxeen.com</a>
 
           <br />
-      <div class="effra-font">    جميع الحقوق محفوظة - موقع قريب 2021 ©</div>
+      <div class="effra-font">    جميع الحقوق محفوظة - موقع قريب 2022 ©</div>
         </v-col>
       </v-row>
     </v-footer>
