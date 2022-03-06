@@ -13,8 +13,13 @@
   gtag('js', new Date());
 
   gtag('config', 'UA-208155997-24');
+  gtag('config', 'AW-955968979');
+ </script>
+  
+<!-- Event snippet for Qereb leads conversion page -->
+<script>
+  gtag('event', 'conversion', {'send_to': 'AW-955968979/FurNCPb3lKcDENPb68cD'});
 </script>
-
 
 
 # install dependencies
