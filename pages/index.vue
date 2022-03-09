@@ -33,7 +33,7 @@
         <div class="checkboxes">
           <v-checkbox
             v-model="addQuotation"
-            label='أضف علامات التنصيص "..." '
+            label='تطابق تام "..."'
             hide-details
             @change="quotation"
           ></v-checkbox>
@@ -404,10 +404,6 @@ export default {
           value: "Youtube"
         },
         {
-          name: "فيس بوك",
-          value: "Facebook"
-        },
-        {
           name: "تويتر",
           value: "Twiter"
         },
@@ -415,6 +411,10 @@ export default {
           name: "انستقرام",
           value: "Instagram"
         },
+	    {
+          name: "فيس بوك",
+          value: "Facebook"
+        },	
         {
           name: "ريديت",
           value: "Reddit"
