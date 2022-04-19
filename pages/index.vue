@@ -68,7 +68,7 @@
               outlined
               color="black"
               @click="searchField()"
-              >إفتحهم جميعاً
+              >إفتحهم جميعاً      <div style="border:1px solid #183153;background-color:#183153;border-radius:50%;padding:0 6px 0 7px;margin-right:8px;margin-top:-3px"><font-awesome-icon icon="info" style="font-size:14px;color:#fff;font-weight:bold" /></div>
               <!-- <v-icon left dark class="ml-1">mdi-help</v-icon> -->
             </v-btn>
           </template>
@@ -77,8 +77,9 @@
             الخيار من المتصفح
             <br />
             <a
-              href="https://bit.ly/2TfpLSQ"
+              href="https://youtu.be/b4PvkiciERY"
               target="_blank"
+			  class="effra-font"
               style="cursor: pointer"
               >شاهد هـذا الفيديو
             </a></span
