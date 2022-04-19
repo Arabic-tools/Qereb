@@ -40,7 +40,8 @@ export default {
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
     // https://go.nuxtjs.dev/vuetify
-    '@nuxtjs/vuetify'
+    '@nuxtjs/vuetify',
+	'@nuxtjs/fontawesome'
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
@@ -48,6 +49,12 @@ export default {
     // '@nuxtjs/google-fonts',
     '@nuxtjs/google-analytics'
   ],
+  fontawesome: {
+	icons: {
+		solid: true,
+		brands: true
+	}  	  
+  },
 
   // Vuetify module configuration: https://go.nuxtjs.dev/config-vuetify
   vuetify: {
