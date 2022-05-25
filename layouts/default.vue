@@ -12,7 +12,7 @@
 
           <a href="https://wasetshera.com?myad=53196"> وسيط شراء من الإنترنت</a>
           <br /> -->
-	<span class="effra-font">قريب برعاية لطيفة من الرائعين في: <a class="effra-font" href="https://wasetshera.com/?myad=53468" >وسيط شراء</a> و <a class="effra-font" href="https://knaree.com/" >كناري</a> و <a class="effra-font" href="https://rmmmz.com/" >رمز</a></span>	
+	<span class="effra-font">برعاية لطيفة من الرائعين في: <a class="effra-font" href="https://wasetshera.com/?myad=53468" >وسيط شراء</a> و <a class="effra-font" href="https://knaree.com/" >كناري</a> و <a class="effra-font" href="https://rmmmz.com/" >رمز</a></span>	
 		<br />
         <span class="effra-font">  للإتصال بنا:</span>
           <a class="black-text effra-font" href="mailto:qereb@inboxeen.com">qereb@inboxeen.com</a>
